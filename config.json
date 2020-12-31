@@ -35,13 +35,13 @@
   "KNOCKBACK_CONSTANT": 1,
   "ROOM_BOUND_FORCE": 0.01,
   "FOOD": [
-    1, 
+    0, 
     1,
     1,
     1,
     1,
     1,
-    1
+    0
   ],
   "FOOD_NEST": [
     1, 
@@ -57,14 +57,15 @@
   "TIER_1": 10,
   "TIER_2": 25,
   "TIER_3": 45,
-    "TIER_4": 60,
+  "TIER_4": 55,
+  "TIER_5": 60,
   "SKILL_CAP": 60,
   "SKILL_SOFT_CAP": 0,
   "SKILL_CHEAT_CAP": 60,
   "SKILL_LEAK": 0,
   "STEALTH": 4,
   "MIN_SPEED": 0.001,
-  "FOOD_AMOUNT": 0.1, 
+  "FOOD_AMOUNT": 0.000001, 
   "SKILL_BOOST": 3,
   "BOTS": 0,
   "GLASS_HEALTH_FACTOR": 2
