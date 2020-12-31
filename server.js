@@ -2575,11 +2575,11 @@ var logs = (() => {
 })();
 
 // Essential server requires
-//var express = require('express'),
-var http = require('http'),
+var express = require('express'),
+    http = require('http'),
     url = require('url'),
     WebSocket = require('ws'),
-    //app = express(),
+    app = express(),
     fs = require('fs'),
     exportDefintionsToClient = (() => {
     function rounder(val) {
